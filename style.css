@@ -1,0 +1,148 @@
+.custom-brand {
+  color: #ffffff;
+  width: 310px;
+  height: 70px;
+  background-color: #4aaaa5;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+  margin: -10px 0;
+  float: left;
+}
+
+.custom-brand:hover {
+  color: #6FFFF7;
+
+}
+
+.fa-bars {
+  color: #4aaaa5;
+}
+
+.navbar-toggler-icon {
+  color: #4aaaa5;
+}
+
+li a {
+  color: grey;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+heading h1 {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+  background-image: url("./white_carbon_@2X.png");
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+section {
+  background-color: #ffffff;
+  /* width: 100%; */
+  display: block;
+  margin: auto;
+  margin: 25px 0;
+
+  padding: 15px;
+}
+
+footer {
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin: 0 -15px;
+}
+
+img {
+  margin-right: 20px;
+}
+
+h1 {
+  color: #4aaaa5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+  height: 1px;
+  border-style: solid;
+  border-color: #c5c4c4;
+  border-radius: 10px;
+  background-color: #c5c4c4;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* boxes in portfolio */
+
+.box {
+  margin: 1em 1em;
+  text-align: center;
+  /* background-image: url(//unsplash.it/489/600); */
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+}
+
+.label {
+  background-color: #4aaaa5;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 148px -15px 0 -15px;
+
+}
+
+.box1 {
+  background-image: url(//unsplash.it/855);
+}
+
+.box2 {
+  background-image: url(//unsplash.it/469/345);
+}
+
+.box3 {
+  background-image: url(//unsplash.it/847);
+}
+
+.box4 {
+  background-image: url(//unsplash.it/489/600);
+}
+
+.box5 {
+  background-image: url(//unsplash.it/469/600);
+}
+
+.box6 {
+  background-image: url(//unsplash.it/660);
+}
