@@ -15,7 +15,6 @@
 
 .custom-brand:hover {
   color: #6FFFF7;
-
 }
 
 .fa-bars {
@@ -32,32 +31,19 @@ li a {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 heading h1 {
   font-size: 30px;
+
   font-weight: 900;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 body {
   background-image: url("./white_carbon_@2X.png");
-  /* display: flex; */
-  /* flex-direction: column; */
 }
 
 section {
-  background-color: #ffffff;
-  /* width: 100%; */
-  display: block;
-  margin: auto;
-  margin: 25px 0;
-
-  padding: 15px;
+  margin-top: 25px;
 }
 
 footer {
@@ -67,11 +53,6 @@ footer {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 5px;
-}
-
-.footer {
-  flex-shrink: 0;
-  margin: 0 -15px;
 }
 
 img {
