@@ -31,9 +31,8 @@ li a {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-heading h1 {
+h1 {
   font-size: 30px;
-
   font-weight: 900;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -72,6 +71,18 @@ h6 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+a,
+p {
+  font-size: 22px;
+}
+
 hr {
   height: 1px;
   border-style: solid;
@@ -102,6 +113,7 @@ hr {
   font-weight: 600;
   margin: 148px -15px 0 -15px;
 
+
 }
 
 .box1 {
@@ -117,13 +129,34 @@ hr {
 }
 
 .box4 {
-  background-image: url(//unsplash.it/489/600);
+  background-image: url(//unsplash.it/584/200);
 }
 
 .box5 {
-  background-image: url(//unsplash.it/469/600);
+  background-image: url(//unsplash.it/750/300);
 }
 
 .box6 {
-  background-image: url(//unsplash.it/660);
+  background-image: url(//unsplash.it/445);
+}
+
+td a {
+  color: green;
+  display: flex;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+
+#mytable {
+  margin-bottom: 50px;
+}
+
+li {
+  font-size: 15px;
+  text-align: center;
+}
+
+#myform {
+  padding-bottom: 30px;
 }
