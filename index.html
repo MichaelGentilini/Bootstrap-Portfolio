@@ -15,50 +15,55 @@
 <body>
 
   <header>
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar" style="background-color: #ffffff;">
 
-      <nav class="navbar navbar-expand-lg navbar" style="background-color: #ffffff;">
+      <div class="container">
+        <a class="navbar-brand custom-brand" href="./index.html">Michael Gentilini</a>
 
-        <div class="container">
-          <a class="navbar-brand custom-brand" href="./index.html">Michael Gentilini</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars fa-3x"></i></button>
 
-          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars fa-2x"></i></button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
-            <ul class="navbar-nav mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="./index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+
+      </div>
+    </nav>
+
   </header>
 
   <section>
 
-    <div class="container" style="background-color: #ffffff;">
+    <div class="container pt-3 pb-3" style="background-color: #ffffff;">
       <div class="title">
         <heading>
           <h1>About Me</h1>
         </heading>
         <hr>
       </div>
-      <img class="headshot" src="./Superman Headshot.jpg" alt="Super me" align="left" width="200" height="200">
+      <img src="./Superman Headshot.jpg" class="img-fluid headshot" alt="Super me" align="left" width="200" height="200">
 
       <p>My name is Michael and I was born in Saint Catharines, a small town outside of Niagara Falls, in Canada. I
         have also lived in Michigan, and North Carolina in the past. By day, I am a business owner and Certified
         Residential Real Estate Appraiser with almost 15 years of experience.
       </p>
+
+      <p> By night, I am attending a bootcamp at SMU to become a full stack developer. I have an associates degree in
+        Linux/UNIX and love the command line. I have always enjoyed tinkering with computer programs, websites, and
+        applications and now I want to become a professional!</p>
+
+      <p>I am currently learning about HTML, CSS, Javascript, Bootstrap, JQuery, APIs, AJAX, Node.js, NPM, SQL,
+        MySQL, MongoDB, Express.js and a whole bunch more... </p>
 
       <p>I currently live outside of Dallas, in Mesquite Texas, with my beautiful wife Lindsay, who is a first-grade
         teacher. Lindsay and I have two dogs and two cats. I have two amazing adult children who
@@ -67,16 +72,9 @@
       <p>In my free time I enjoy spending time with friends and family, traveling to new places, learning new things,
         and meeting new people. </p>
 
-      <p> By night, I am attending a bootcamp at SMU to become a full stack developer. I have an associates degree in
-        Linux/UNIX and love command line. I have always enjoyed tinkering with computer programs, websites, and
-        applications and now I want to become a professional!</p>
-
-      <p>I am currently learning about HTML, CSS, Javascript, Bootstrap, JQuery, APIs, AJAX, Node.js, NPNM, SQL and
-        MySQL, MongoDB, Express.js and more... </p>
-
-
-
       <h3>You can find me at</h3>
+
+
       <div class="container" id="mytable">
         <table class="table table-hover" style="width: 50%; margin:auto; border:lightgrey solid;">
           <thead>
@@ -107,9 +105,8 @@
     </div>
   </section>
 
-  <div class="container-fluid fixed-bottom">
-    <footer class=" footer">Copyright &copy; 2019 Michael Gentilini</footer>
-  </div>
+  <footer class=" footer fixed-bottom">Copyright &copy; 2019 Michael Gentilini</footer>
+
 
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>

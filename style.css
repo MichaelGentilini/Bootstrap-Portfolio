@@ -17,8 +17,13 @@
   color: #6FFFF7;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-grip-lines {
   color: #4aaaa5;
+}
+
+.fa-toggle-on {
+  color: hotpink;
 }
 
 .navbar-toggler-icon {
