@@ -131,6 +131,9 @@ hr {
 
 .box1 {
   background-image: url(./assets/images/Psychic-lg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .box2 {
