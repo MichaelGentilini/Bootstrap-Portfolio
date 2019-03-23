@@ -90,8 +90,13 @@ h3 {
 a,
 p {
   font-size: 22px;
+
+}
+
+a {
   color: #ffffff;
 }
+
 
 hr {
   height: 1px;
