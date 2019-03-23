@@ -17,6 +17,10 @@
   color: #6FFFF7;
 }
 
+container a {
+  color: white;
+}
+
 .fa-bars,
 .fa-grip-lines {
   color: #4aaaa5;
@@ -86,6 +90,7 @@ h3 {
 a,
 p {
   font-size: 22px;
+  color: #ffffff;
 }
 
 hr {
@@ -103,10 +108,9 @@ hr {
 .box {
   margin: 1em 1em;
   text-align: center;
-  /* background-image: url(//unsplash.it/489/600); */
   background-repeat: no-repeat;
   height: 200px;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .label {
@@ -122,7 +126,7 @@ hr {
 }
 
 .box1 {
-  background-image: url(//unsplash.it/855);
+  background-image: url(./assets/images/Psychic-lg.jpg);
 }
 
 .box2 {
