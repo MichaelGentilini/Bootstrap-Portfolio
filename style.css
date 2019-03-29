@@ -131,13 +131,18 @@ hr {
 
 .box1 {
   background-image: url(./assets/images/Psychic-lg.jpg);
-  background-size: contain;
+  background-size: cover;
+  /* background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
+  */
 }
 
 .box2 {
-  background-image: url(//unsplash.it/469/345);
+  background-image: url(//allthingsd.com/files/2012/07/Commodus_thumbs_up.jpg);
+  background-size: cover;
+
+
 }
 
 .box3 {
