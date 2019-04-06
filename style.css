@@ -4,7 +4,7 @@
   height: 70px;
   background-color: #4aaaa5;
   font-size: 32px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   text-align: center;
   vertical-align: middle;
@@ -14,7 +14,7 @@
 }
 
 .custom-brand:hover {
-  color: #6FFFF7;
+  color: #6ffff7;
 }
 
 container a {
@@ -37,13 +37,13 @@ container a {
 li a {
   color: grey;
   font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
   font-size: 30px;
   font-weight: 900;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
@@ -77,7 +77,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h3 {
@@ -95,7 +95,6 @@ p {
 a {
   color: #ffffff;
 }
-
 
 hr {
   height: 1px;
@@ -125,8 +124,6 @@ hr {
   font-size: 25px;
   font-weight: 600;
   margin: 148px -15px 0 -15px;
-
-
 }
 
 .box1 {
@@ -135,18 +132,16 @@ hr {
   /* background-size: contain;
   background-repeat: no-repeat;
   /* background-position: center; */
-  */
 }
 
 .box2 {
   background-image: url(https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/full/public/joaquin_phoenix_gladiator.jpg);
   background-size: cover;
-
-
 }
 
 .box3 {
-  background-image: url(https://unsplash.it/843);
+  background-image: url(./assets/images/trivia.JPG);
+  background-size: cover;
 }
 
 .box4 {
@@ -167,7 +162,6 @@ td a {
   vertical-align: middle;
   line-height: 90px;
 }
-
 
 #mytable {
   margin-bottom: 50px;
