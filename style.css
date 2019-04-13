@@ -145,8 +145,10 @@ hr {
 }
 
 .box4 {
-  background-image: url(https:////unsplash.it/584/200);
+  background-image: url(./assets/images/superheroes.jpg);
+  background-size: cover;
 }
+
 
 .box5 {
   background-image: url(https:////unsplash.it/750/300);
