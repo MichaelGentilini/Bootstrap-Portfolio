@@ -151,7 +151,8 @@ hr {
 
 
 .box5 {
-  background-image: url(https:////unsplash.it/750/300);
+  background-image: url(./assets/images/train.jpg);
+  background-size: cover;
 }
 
 .box6 {
